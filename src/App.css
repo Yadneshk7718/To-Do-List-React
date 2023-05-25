@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5rem;
+}
+
+
+body{
+  background-color: rgba(117, 144, 195, 0.756)
+}
+
+.App{
+  background-color: rgb(74, 20, 132);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do-form input {
+  background-color: rgb(74, 111, 64);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+#to-do-form input::placeholder{
+  color: rgba(1, 1, 1, 0.603)
+}
+#to-do-form input:focus, #to-do-form button:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgba(185, 73, 13, 0.918);
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
